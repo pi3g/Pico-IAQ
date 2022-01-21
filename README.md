@@ -20,5 +20,15 @@ This example depends on the [BSEC 1.4.8.0 software by BOSCH](https://www.bosch-s
 - Clone this repository
 - Download the [BSEC](https://www.bosch-sensortec.com/software-tools/software/bsec/)
 - Unzip it into the cloned repository (next to this README.md)
+  - Browse the BSEC_1.4.8.0_Generic_Release folder and copy the following files next to this README.md
+    - All the content in the /BSEC_1.4.8.0_Generic_Release/examples/bsec_iot_example folder
+      - bsec_datatypes.h
+      - bsec_integration.c
+      - bsec_integration.h
+      - bsec_interface.h
+      - bme680.c
+      - bme680.h
+      - bme680_defs.h
+    - /BSEC_1.4.8.0_Generic_Release/algo/normal_version/bin/RaspberryPi/PiThree_ArmV6/libalgobsec.a
 - Build the application using the Pico SDK
 - Flash your Pico with the newly created .uf2 file
