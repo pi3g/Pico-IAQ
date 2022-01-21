@@ -11,3 +11,14 @@ The LEDs will indicate the IAQ.
 | RED | > 300 | Bad |
 
 If the IAQ is in the bad range ( > 300) for longer than 60 seconds, the buzzer will start to buzz.
+
+Important note
+--------------
+
+This example depends on the [BSEC 1.4.8.0 software by BOSCH](https://www.bosch-sensortec.com/software-tools/software/bsec/). Due to copyright we cannot share the precompiled .uf2 application. To run the application you need to
+
+- Clone this repository
+- Download the [BSEC](https://www.bosch-sensortec.com/software-tools/software/bsec/)
+- Unzip it into the cloned repository (next to this README.md)
+- Build the application using the Pico SDK
+- Flash your Pico with the newly created .uf2 file
